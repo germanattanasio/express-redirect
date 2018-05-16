@@ -1,0 +1,6 @@
+applications:
+- name: simple-express-redirect
+  path: .
+  buildpack: sdk-for-nodejs
+  command: npm start
+  memory: 512M

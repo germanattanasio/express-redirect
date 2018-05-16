@@ -1,0 +1,20 @@
+{
+  "name": "express-redirect",
+  "version": "0.0.1",
+  "description": "Redirects request to a new domain",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "express",
+    "redirect"
+  ],
+  "author": "German <germanattanasio@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-status-monitor": "^1.0.1",
+    "morgan": "^1.9.0"
+  }
+}
