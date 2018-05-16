@@ -11,4 +11,4 @@ app.use(monitor());
 app.get('/domain', (req, res) => res.send(newDomain))
 app.all('*', (req, res) => res.redirect(newDomain + req.originalUrl));
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'))
+app.listen(process.env.PORT || 3000, () => console.log('Example app listening on port 3000!'))
