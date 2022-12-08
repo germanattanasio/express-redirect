@@ -13,7 +13,7 @@
   "author": "German <germanattanasio@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "express-status-monitor": "^1.0.1",
     "morgan": "^1.9.0"
   }
